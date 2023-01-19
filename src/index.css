@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?&family=Courgette&family=Poppins&display=swap');
 
 :root {
   --light: #f3f3f3;
   --dark: #060606;
   --light-color: #fcffea;
   --dark-color: #000000;
-  --primary: #b6b300;
-  --secondary: #4d4100;
+  --primary: #d80707;
+  --secondary: #4d0000;
 }
 
 * {
@@ -14,7 +16,7 @@
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 body {
