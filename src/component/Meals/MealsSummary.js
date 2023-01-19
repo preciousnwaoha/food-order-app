@@ -5,7 +5,6 @@ import classes from './MealsSummary.module.css';
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <div className={classes["summary-bg"]}></div>
       <h2>Were quantity and quality beats cost</h2>
       <p>
         Choose your favorite meal from our broad selection of available meals

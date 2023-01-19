@@ -1,5 +1,6 @@
 .form {
     text-align: right;
+    font-size: 0.85rem;
   }
   
   .form button {
@@ -8,8 +9,9 @@
     background-color: var(--primary);
     border: 1px solid var(--primary);
     color: var(--light-color);
-    padding: 0.25rem 2rem;
+    padding: 0.25rem 1rem;
     border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: bold;
   }
   
@@ -17,4 +19,29 @@
   .form button:active {
     background-color: var(--secondary);
     border-color: var(--secondary);
+  }
+
+  @media screen and (min-width: 760px) {
+    .form {
+      text-align: right;
+      font-size: 1rem;
+    }
+    
+    .form button {
+      font: inherit;
+      cursor: pointer;
+      background-color: var(--primary);
+      border: 1px solid var(--primary);
+      color: var(--light-color);
+      padding: 0.25rem 2rem;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    
+    .form button:hover,
+    .form button:active {
+      background-color: var(--secondary);
+      border-color: var(--secondary);
+    }
+  
   }
