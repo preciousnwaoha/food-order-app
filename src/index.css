@@ -24,3 +24,7 @@ body {
   background-color: var(--light);
 }
 
+main {
+  width: 100vh;
+  overflow: hidden;
+}
