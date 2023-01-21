@@ -22,30 +22,31 @@
   .main-image {
     width: 200%;
     height: 25rem;
-    z-index: 0;
     overflow: hidden;
     background: url("../../assets/banner.jpg");
     background-repeat: repeat;
     background-size: contain;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+    outline: 1px solid var(--primary);
+    outline-offset: 1rem;
   }
   
-  .main-image img {
+  /* .main-image img {
     display: none;
     width: 110%;
     height: 100%;
     object-fit: contain;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
-  }
+  } */
 
-  .line {
+  /* .line {
     width: 200%;
-    /* margin-top: 1.5rem; */
+    margin-top: 1.5rem;
     height: 1px;
     background: var(--primary);
     transform: rotateZ(-5deg) translateY(-2rem) translateX(-4rem);
     
-  }
+  } */
 
   @media screen and (min-width: 760px) {
     .header {
