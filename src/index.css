@@ -22,6 +22,8 @@ font-family: 'Poppins', sans-serif;
 body {
   margin: 0;
   background-color: var(--light);
+  width: 100vh;
+  overflow: hidden;
 }
 
 main {
